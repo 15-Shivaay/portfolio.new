@@ -12,7 +12,7 @@ const PORT = process.env.PORT || 5000;
 app.use(cors({
   origin: [
     'http://localhost:5173',
-    'https://portfolio-chi-navy-81.vercel.app/'
+    'https://portfolio-chi-navy-81.vercel.app'
   ],
   methods: ['GET', 'POST'],
   credentials: true
