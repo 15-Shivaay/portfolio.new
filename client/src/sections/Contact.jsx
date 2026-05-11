@@ -17,31 +17,27 @@ export default function Contact() {
     setIsSubmitting(true);
 
     try {
-  console.log("Sending request...");
+      const response = await fetch(`${import.meta.env.VITE_API_URL}/api/contact`, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(formData),
+      });
 
-  const response = await fetch(`${import.meta.env.VITE_API_URL}/api/contact`, {
-    method: 'POST',
-    headers: {
-      'Content-Type': 'application/json',
-    },
-    body: JSON.stringify(formData),
-  });
-
-  console.log("Response received:", response);
-
-  const data = await response.json();
-
-  console.log("Response data:", data);
-
-  if (response.ok) {
-    toast.success('Message sent successfully! 🚀');
-  } else {
-    toast.error(data.error || 'Failed to send message.');
-  }
-
-} catch (error) {
-  console.error("FETCH ERROR:", error);
-}
+      if (response.ok) {
+        toast.success('Message sent successfully! 🚀', {
+          theme: "dark",
+          style: { background: '#111', border: '1px solid rgba(0,240,255,0.2)' }
+        });
+        setFormData({ name: '', email: '', message: '' });
+      } else {
+        toast.error('Failed to send message. Please try again.', { theme: "dark" });
+      }
+    } catch (error) {
+      console.error(error);
+      toast.error('Network error. Is the backend running?', { theme: "dark" });
+    }
     setIsSubmitting(false);
   };
 

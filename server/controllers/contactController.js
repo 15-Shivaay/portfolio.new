@@ -45,8 +45,11 @@ const submitContactForm = async (req, res) => {
             </div>`,
     };
 
-    await transporter.sendMail(mailOptions);
+    console.log("MAIL WOULD SEND HERE");
 
+    return res.status(200).json({
+      message: 'Backend working correctly'
+    });
     return res.status(200).json({ message: 'Message sent successfully.' });
   } catch (error) {
     console.error('Email error:', error);
