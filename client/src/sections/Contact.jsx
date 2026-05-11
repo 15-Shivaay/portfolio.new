@@ -14,8 +14,7 @@ export default function Contact() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     setIsSubmitting(true);
-
-    console.log(import.meta.env.VITE_API_URL);
+    
     try {
       const response = await fetch(`${import.meta.env.VITE_API_URL}/api/contact`, {
         method: 'POST',
