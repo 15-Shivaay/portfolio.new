@@ -41,7 +41,7 @@ function App() {
     <div className="bg-primary text-white font-sans selection:bg-accent-cyan selection:text-black min-h-screen">
       {!introFinished && <Intro onComplete={() => setIntroFinished(true)} />}
       
-      <div className={introFinished ? 'opacity-100 transition-opacity duration-1000' : 'opacity-0 h-screen overflow-hidden'}>
+      <div className={introFinished ? 'opacity-100 transition-opacity duration-1500' : 'opacity-0 h-screen overflow-hidden'}>
         <Navbar />
         <main>
           <Hero />

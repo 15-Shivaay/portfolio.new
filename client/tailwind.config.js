@@ -19,7 +19,7 @@ export default {
       },
       animation: {
         'marquee-left': 'marquee-left 55s linear infinite',
-        'marquee-right': 'marquee-right 45s linear infinite',
+        'marquee-right': 'marquee-right 65s linear infinite',
         'fade-up': 'fade-up 0.8s ease-out forwards',
       },
       keyframes: {

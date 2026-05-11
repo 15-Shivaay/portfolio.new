@@ -25,7 +25,7 @@ export default function DSA() {
 
             <div className="grid grid-cols-2 gap-4 mb-8">
               <div className="glass-panel p-4 border-l-2 border-l-accent-cyan">
-                <h4 className="text-3xl font-bold text-white mb-1">400+</h4>
+                <h4 className="text-3xl font-bold text-white mb-1">600+</h4>
                 <p className="text-sm text-gray-400">Total Problems Solved</p>
               </div>
               <div className="glass-panel p-4 border-l-2 border-l-accent-purple">
@@ -37,10 +37,10 @@ export default function DSA() {
 
 
             <div className="flex flex-wrap gap-4">
-              <a href="#" className="px-6 py-2.5 rounded-full border border-white/20 hover:bg-white/10 transition-colors text-sm font-medium">
+              <a href="https://leetcode.com/u/shivaay_15/" className="px-6 py-2.5 rounded-full border border-white/20 hover:bg-white/10 transition-colors text-sm font-medium">
                 View LeetCode
               </a>
-              <a href="#" className="px-6 py-2.5 rounded-full border border-white/20 hover:bg-white/10 transition-colors text-sm font-medium">
+              <a href="https://www.geeksforgeeks.org/profile/shivamumesopjv?tab=activity" className="px-6 py-2.5 rounded-full border border-white/20 hover:bg-white/10 transition-colors text-sm font-medium">
                 View GeeksForGeeks
               </a>
             </div>
@@ -54,7 +54,7 @@ export default function DSA() {
             className="flex items-center justify-center relative w-full h-full min-h-[400px]"
           >
             <a 
-              href="https://codolio.com/profile/shivaay" 
+              href="https://codolio.com/profile/15@Shivam" 
               target="_blank" 
               rel="noopener noreferrer"
               className="group relative w-full max-w-md block"

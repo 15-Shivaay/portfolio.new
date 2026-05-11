@@ -20,12 +20,9 @@ export default function Hero() {
             Shivam Kumar
           </h1>
 
-          <h2 className="text-xl md:text-2xl text-gray-300 font-medium flex items-center gap-2">
-            Software Engineer <span className="text-accent-purple/50">|</span> DSA Enthusiast
-          </h2>
           
           <h2 className="text-xl md:text-2xl text-gray-300 font-medium flex items-center gap-2">
-            Full Stack Developer <span className="text-accent-purple/50">|</span> DSA Enthusiast
+            Software Engineer <span className="text-accent-purple/50">|</span>Full Stack Developer <span className="text-accent-purple/50">|</span> DSA Enthusiast
           </h2>
           
           <p className="text-gray-400 text-lg max-w-xl leading-relaxed">
@@ -59,7 +56,7 @@ export default function Hero() {
                   <span className="text-accent-cyan text-2xl">⚡</span>
                 </div>
                 <div>
-                  <h3 className="font-bold text-2xl text-white">400+</h3>
+                  <h3 className="font-bold text-2xl text-white">600+</h3>
                   <p className="text-xs text-gray-400 font-medium uppercase tracking-wider">Problems Solved</p>
                 </div>
               </div>
@@ -89,7 +86,7 @@ export default function Hero() {
               <div className="font-mono text-sm text-gray-300 leading-relaxed">
                 <p><span className="text-accent-purple">const</span> developer = {'{'}</p>
                 <p className="ml-4">name: <span className="text-accent-cyan">'Shivaay'</span>,</p>
-                <p className="ml-4">role: <span className="text-accent-cyan">'Full Stack'</span>,</p>
+                <p className="ml-4">role: <span className="text-accent-cyan">'Software Developer'</span>,</p>
                 <p className="ml-4">passion: <span className="text-accent-cyan">'Code'</span></p>
                 <p>{'}'};</p>
               </div>

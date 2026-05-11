@@ -2,26 +2,35 @@ import { motion } from 'framer-motion';
 import { FiGithub, FiExternalLink, FiFolder } from 'react-icons/fi';
 
 const projects = [
+
+  {
+    title: "QuickShow",
+    description: "A full-stack movie ticket booking platform featuring real-time show listings, seat selection, secure authentication, and Stripe payment integration.",
+    tech: ["React.js", "Node.js", "Express.js", "MongoDB", "Clerk", "Stripe", "Tailwind CSS"],
+    github: "https://github.com/15-Shivaay/QuickShow",
+    demo: "https://quick-show-orpin.vercel.app/"
+  },
+
   {
     title: "SocialGraph",
     description: "A complex network visualization tool mapping relationships using graph algorithms. Built with Node.js and sophisticated data structures.",
     tech: ["JavaScript", "Node.js", "Graph Algorithms"],
-    github: "#",
-    demo: "#"
+    github: "https://github.com/15-Shivaay/social_graph",
+    demo: "https://github.com/15-Shivaay/social_graph"
   },
   {
     title: "CivicSync",
     description: "Municipal reporting platform for reporting local issues with real-time updates and location-based filtering.",
     tech: ["MongoDB", "Express", "Node.js", "React"],
-    github: "#",
-    demo: "#"
+    github: "https://github.com/15-Shivaay/Civic_sync",
+    demo: "https://github.com/15-Shivaay/Civic_sync"
   },
   {
     title: "Nexus Analytics",
     description: "Responsive analytics dashboard built with React and Material UI featuring dynamic charts and dark mode management.",
     tech: ["React", "Material UI", "Charts"],
-    github: "#",
-    demo: "#"
+    github: "https://github.com/15-Shivaay/admin_dashboard",
+    demo: "https://github.com/15-Shivaay/admin_dashboard"
   }
 ];
 
@@ -48,10 +57,13 @@ export default function Projects() {
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
           >
-            <h2 className="text-4xl md:text-5xl font-bold">Selected <span className="text-gradient">Works</span></h2>
+            <h2 className="text-4xl md:text-5xl font-bold">My <span className="text-gradient">Works</span></h2>
           </motion.div>
           
-          <motion.button 
+          <motion.a
+            href="https://github.com/15-Shivaay"
+            target="_blank"
+            rel="noopener noreferrer"
             initial={{ opacity: 0, x: 20 }}
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
@@ -59,7 +71,7 @@ export default function Projects() {
           >
             View All Repos
             <FiExternalLink className="ml-2 group-hover:translate-x-1 transition-transform" />
-          </motion.button>
+          </motion.a>
         </div>
 
         <motion.div 

@@ -59,23 +59,23 @@ export default function Contact() {
             </p>
 
             <div className="space-y-6">
-              <a href="mailto:contact@example.com" className="flex items-center space-x-4 text-gray-300 hover:text-white transition-colors group">
+              <a href="mailto:shivamumeshsingh99@gmail.com" className="flex items-center space-x-4 text-gray-300 hover:text-white transition-colors group">
                 <div className="w-12 h-12 rounded-full glass-panel flex items-center justify-center group-hover:bg-accent-cyan/20 group-hover:border-accent-cyan/50 transition-all">
                   <FiMail className="text-xl" />
                 </div>
-                <span className="text-lg font-medium">contact@example.com</span>
+                <span className="text-lg font-medium">Mail</span>
               </a>
-              <a href="#" className="flex items-center space-x-4 text-gray-300 hover:text-white transition-colors group">
+              <a href="https://www.linkedin.com/in/shivam-kumar-867353228/" className="flex items-center space-x-4 text-gray-300 hover:text-white transition-colors group">
                 <div className="w-12 h-12 rounded-full glass-panel flex items-center justify-center group-hover:bg-accent-purple/20 group-hover:border-accent-purple/50 transition-all">
                   <FiLinkedin className="text-xl" />
                 </div>
-                <span className="text-lg font-medium">linkedin.com/in/shivaay</span>
+                <span className="text-lg font-medium">LinkedIn</span>
               </a>
-              <a href="#" className="flex items-center space-x-4 text-gray-300 hover:text-white transition-colors group">
+              <a href="https://github.com/15-Shivaay" className="flex items-center space-x-4 text-gray-300 hover:text-white transition-colors group">
                 <div className="w-12 h-12 rounded-full glass-panel flex items-center justify-center group-hover:bg-white/20 transition-all">
                   <FiGithub className="text-xl" />
                 </div>
-                <span className="text-lg font-medium">github.com/shivaay</span>
+                <span className="text-lg font-medium">GitHub</span>
               </a>
             </div>
           </motion.div>
