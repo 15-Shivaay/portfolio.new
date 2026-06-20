@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import devImage from '../assets/Gemini_Generated_Image_auafiaauafiaauaf.png';
+import devImage from '../assets/ChatGPT Image Jun 20, 2026, 08_53_54 PM.png';
 
 export default function About() {
   return (
@@ -16,15 +16,15 @@ export default function About() {
           >
             <div className="w-80 h-80 md:w-96 md:h-96 rounded-full overflow-hidden glass-panel relative group flex items-center justify-center mx-auto border border-white/10 shadow-[0_0_60px_rgba(0,240,255,0.15)]">
 
-            <div className="absolute inset-0 bg-gradient-to-tr from-accent-cyan/20 to-accent-purple/20 group-hover:scale-110 transition-transform duration-500 z-10"></div>
-            {/* the imag part */}
+            <div className="absolute inset-0 bg-gradient-to-tr from-accent-cyan/20 to-accent-purple/20 group-hover:scale-110 transition-transform duration-500 z-20"></div>
+            {/* the image part */}
             <img
               src={devImage}
               alt="Development"
-              className="w-64 h-64 md:w-72 md:h-72 rounded-full object-cover border-4 border-accent-cyan/30 shadow-[0_0_40px_rgba(0,240,255,0.25)] z-20"
+              className="w-80 h-80 md:w-96 md:h-96 rounded-full object-cover center top border-4 border-accent-cyan/30 scale-[0.8] shadow-[0_0_40px_rgba(0,240,255,0.25)] z-20"
             />
             
-          </div>
+            </div>
 
             {/* Overlay Cards */}
             <motion.div
